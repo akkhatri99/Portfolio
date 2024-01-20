@@ -1,10 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cogentImg from "@/public/cogent.png";
+import cogentCRON from "@/public/cogentCRON.png";
+import ecommerceCRM from "@/public/ecommerceCRM.png";
 
 export const links = [
   {
@@ -34,14 +32,6 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Spurs",
-  //   location: "Miami, FL",
-  //   description:
-  //     "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-  //   icon: React.createElement(LuGraduationCap),
-  //   date: "2019",
-  // },
   {
     title: "Junior Software Engineer",
     location: "Vertika.tv, Karachi, Pakistan",
@@ -66,21 +56,24 @@ export const projectsData = [
     description:
       "Worked as a Full-Stack Software Engineer to create a BI tool for Mortgage Industry of USA, which helps Lenders and Appraisals take better decisions for their company.",
     tags: ["Angular", ".NET 6", "MongoDB", "gRPC", "Dapper", "Redis"],
-    imageUrl: corpcommentImg,
+    imageUrl: cogentImg,
+    websiteURL: "https://app.vlcogent.com/login"
   },
   {
     title: "Cogent CRON",
     description:
       "A CRON Job for Cogent which fetches data from parent product in SQL, cleans it, and pushes it to MongoDB to be used by Cogent.",
     tags: [".NET 6", "Azure CRON", "Microsoft SQL", "MongoDB", "Redis"],
-    imageUrl: rmtdevImg,
+    imageUrl: cogentCRON,
+    websiteURL: "https://app.vlcogent.com/login"
   },
   {
     title: "Ecommerce CRM",
     description:
       "A complete CRM solution for E-Commerce websites where they can track their revenue to adding products to payment solution.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Planet Scale"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: ecommerceCRM,
+    websiteURL: "https://ecommerce-pgukr722e-akkhatri99s-projects.vercel.app/"
   },
 ] as const;
 
