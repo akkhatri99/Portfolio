@@ -57,7 +57,7 @@ export const projectsData = [
       "Worked as a Full-Stack Software Engineer to create a BI tool for Mortgage Industry of USA, which helps Lenders and Appraisals take better decisions for their company.",
     tags: ["Angular", ".NET 6", "MongoDB", "gRPC", "Dapper", "Redis"],
     imageUrl: cogentImg,
-    websiteURL: "https://app.vlcogent.com/login"
+    websiteURL: "https://valuelinksoftware.com/products/cogent"
   },
   {
     title: "Cogent CRON",
@@ -65,7 +65,7 @@ export const projectsData = [
       "A CRON Job for Cogent which fetches data from parent product in SQL, cleans it, and pushes it to MongoDB to be used by Cogent.",
     tags: [".NET 6", "Azure CRON", "Microsoft SQL", "MongoDB", "Redis"],
     imageUrl: cogentCRON,
-    websiteURL: "https://app.vlcogent.com/login"
+    websiteURL: ""
   },
   {
     title: "Ecommerce CRM",
