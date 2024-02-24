@@ -42,7 +42,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer",
-    location: "Spursol, Karachi, Pakistan",
+    location: "ValueLink Software, US, Remote",
     description:
       "I worked as a FullStack Software Engineer for 1.5 years. My major highlight of the job was that I wrote a product from scratch which ended up producing revenue for the company.",
     icon: React.createElement(CgWorkAlt),
